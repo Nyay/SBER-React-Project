@@ -1,0 +1,21 @@
+:root {
+  --background-color-day-black: #000;
+  --background-color-middle: #8055ff;
+  --background-color-day-white: #fff;
+  --background-color-day-light-blue: #bad8f5;
+  --background-color-day-blue: #459df5;
+  --background-color-day-red: #f53152;
+  --background-color-day-blue-white: #ebf0f5;
+  --background-color-day-dark-white: rgb(235 240 245 / 100%);
+  --background-color-day-orange: rgb(255 140 86 / 100%);
+  --background-color-day-green: #0fb864;
+}
+
+body {
+  font-family: Ubuntu, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.75rem;
+  margin: 0;
+  padding: 3rem 2rem;
+}
