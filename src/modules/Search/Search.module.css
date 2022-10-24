@@ -1,0 +1,11 @@
+._ {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.searchbar {
+  display: flex;
+  position: relative;
+  gap: 1rem;
+}

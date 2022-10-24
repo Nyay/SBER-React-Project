@@ -1,0 +1,20 @@
+._ {
+  width: 10rem;
+  padding: 1rem 0;
+  background-color: var(--background-color-day-white);
+  border: none;
+  box-sizing: border-box;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 1.5rem rgb(0 0 0 / 10%),
+    0 0.25rem 0.5rem rgb(0 0 0 / 10%), 0 0.125rem 0.125rem rgb(0 0 0 / 10%);
+}
+
+._ > * {
+  padding: 0 1rem;
+}
+
+.input {
+  position: absolute;
+  right: 0;
+  top: 3.75rem;
+}

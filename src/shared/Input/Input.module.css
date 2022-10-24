@@ -1,0 +1,85 @@
+._ {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.label {
+  font-size: 0.75rem;
+  font-weight: 400;
+  font-family: Ubuntu, sans-serif;
+  line-height: 1rem;
+  color: var(--background-color-day-black);
+}
+
+.body {
+  display: flex;
+  height: 2rem;
+  border-radius: 0.25rem;
+  box-sizing: border-box;
+  padding: 0.5rem 0.25rem 0.5rem 0.5rem;
+  justify-content: space-between;
+  width: auto;
+  align-items: center;
+}
+
+.input {
+  appearance: none;
+  border: none;
+  background-color: #fff0;
+  width: 100%;
+  outline: none;
+  font-family: Ubuntu, sans-serif;
+  font-style: normal;
+}
+
+.input::placeholder {
+  color: var(--background-color-day-light-blue);
+}
+
+.prefix {
+  font-size: 0.75rem;
+  color: var(--background-color-day-black);
+  padding-right: 0.125rem;
+}
+
+.icon {
+  width: 1rem;
+  fill: var(--background-color-day-light-blue);
+  stroke: var(--background-color-day-light-blue);
+}
+
+.date {
+  width: 8.875rem;
+}
+
+.price {
+  width: 7.875rem;
+}
+
+.list {
+  width: 12rem;
+}
+
+.label,
+.input::placeholder,
+.input {
+  font-size: 0.75rem;
+  font-weight: 400;
+}
+
+.primary > .body {
+  border: 0.0625rem solid var(--background-color-day-blue);
+  background-color: var(--background-color-day-white);
+}
+
+.incorrect > .body {
+  border: 0.0625rem solid var(--background-color-day-red);
+  background-color: var(--background-color-day-white);
+}
+
+.blocked > .body {
+  background-color: var(--background-color-day-light-blue);
+  border: 0.0625rem solid var(--background-color-day-blue);
+  cursor: not-allowed;
+}
