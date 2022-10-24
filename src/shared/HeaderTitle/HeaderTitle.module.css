@@ -1,0 +1,9 @@
+._ {
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1rem;
+  color: var(--background-color-day-black);
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}

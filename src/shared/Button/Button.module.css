@@ -1,0 +1,70 @@
+._ {
+  appearance: none;
+  border: none;
+  border-radius: 0.25rem;
+  display: flex;
+  align-self: flex-start;
+}
+
+.primary {
+  background-color: var(--background-color-day-blue);
+}
+
+.lg {
+  max-height: 2rem;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+}
+
+.sm {
+  max-height: 1.5rem;
+  gap: 0.25rem;
+  padding: 0.25rem 0.5rem;
+}
+
+.lg:has(> .text) {
+  padding: 0.5rem 1rem;
+}
+
+.sm:has(> .text) {
+  padding: 0.25rem 0.5rem;
+}
+
+.icon {
+  stroke: var(--background-color-day-white);
+  fill: var(--background-color-day-white);
+  height: 100%;
+  width: 1rem;
+}
+
+.text {
+  font-family: Ubuntu, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  color: var(--background-color-day-white);
+  white-space: nowrap;
+}
+
+.transparent {
+  background-color: rgb(255 255 255 / 0%);
+}
+
+.transparent > .icon {
+  stroke: var(--background-color-day-blue);
+  fill: var(--background-color-day-blue);
+}
+
+.transparent > .text {
+  color: var(--background-color-day-blue);
+}
+
+.button:disabled > .icon {
+  stroke: var(--background-color-day-black);
+  fill: var(--background-color-day-black);
+}
+
+.button:disabled > .text {
+  color: var(--background-color-day-black);
+}

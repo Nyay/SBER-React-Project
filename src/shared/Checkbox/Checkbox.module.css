@@ -1,0 +1,59 @@
+._ {
+  position: relative;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.input {
+  width: 1rem;
+  height: 1rem;
+  background-color: var(--background-color-day-white);
+  border: 0.0625rem solid var(--background-color-day-light-blue);
+  border-radius: 0.125rem;
+  box-sizing: border-box;
+  appearance: none;
+}
+
+.icon {
+  width: 1rem;
+  height: 1rem;
+  position: absolute;
+  top: 0.0625rem;
+  left: 0.0625rem;
+  fill: var(--background-color-day-white);
+  opacity: 0;
+  transition: opacity 0.3s ease-in;
+  margin: 0.125rem 0.0938rem 0.125rem 0.1875rem;
+}
+
+.input:checked {
+  background-color: var(--background-color-day-blue);
+  border: none;
+}
+
+.input:active {
+  background-color: var(--background-color-day-light-blue);
+}
+
+.input:active + .icon {
+  fill: var(--background-color-day-light-blue);
+}
+
+.input:checked + .icon {
+  opacity: 1;
+}
+
+.link {
+  all: unset;
+}
+
+.input:checked ~ .link {
+  color: var(--background-color-day-blue);
+}

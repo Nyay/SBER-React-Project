@@ -1,0 +1,15 @@
+._ {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 1rem;
+  background-color: var(--background-color-day-blue-white);
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  gap: 1rem;
+  box-sizing: border-box;
+}
+
+._ > * {
+  margin-top: auto;
+}

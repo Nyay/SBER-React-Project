@@ -12,5 +12,6 @@ module.exports = {
   plugins: ['react', 'html'],
   rules: {
     'require-jsdoc': 0,
+    'object-curly-spacing': [2, 'always'],
   },
 };
